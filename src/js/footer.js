@@ -3,9 +3,9 @@ document.getElementById('footerContainer').innerHTML =`
           <div class="footer-right">
             <div class="footer-right-top-div">
               <div><p class="social-media-title" id="toMessageUs">للتواصل معنا</p></div>
-              <div class="sm-img-div"> <img src="/assets/images/icons/email-icon.png" id="emailImg" class="email-img" width="100%" ></div>
-              <div class="sm-img-div"> <img src="/assets/images/icons/facebook-icon.png" id="facebookImg" class="facebook-img" target="_blank" width="100%" ></div>
-              <div class="sm-img-div"><img src="/assets/images/icons/telegram-icon.png" id="telegramImg" class="telegram-img" width="100%"></div>
+              <div class="sm-img-div"> <img src="assets/images/icons/email-icon.png" id="emailImg" class="email-img" width="100%" ></div>
+              <div class="sm-img-div"> <img src="assets/images/icons/facebook-icon.png" id="facebookImg" class="facebook-img" target="_blank" width="100%" ></div>
+              <div class="sm-img-div"><img src="assets/images/icons/telegram-icon.png" id="telegramImg" class="telegram-img" width="100%"></div>
               
             </div>
             <div class="links">
