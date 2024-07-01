@@ -5,7 +5,7 @@
 function transportPageButton(buttonClass, pageName){
 if(document.querySelector(`.${buttonClass}`)){
   document.querySelector(`.${buttonClass}`).addEventListener('click', function(){
-    window.location.href = `./src/pages/${pageName}.html`;
+    window.location.href = `../pages/${pageName}.html`;
   })
 }
 };
