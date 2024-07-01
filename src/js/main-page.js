@@ -23,7 +23,7 @@ function hideSidebar(){
 
 //Calculate Type Button in Header Bar
 document.querySelector('.calculate-button-header').addEventListener('click', function(){
-  window.location.href = './src/pages/calculating-type.html';
+  window.location.href = '../pages/calculating-type.html';
 });
 
 
