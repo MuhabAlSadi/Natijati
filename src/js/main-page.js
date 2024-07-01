@@ -38,7 +38,7 @@ transportPageButton(`unknown-marks`, `calculate-required-grades`);
 
 // - - - - - - - - - - - Message Us Section -- - - - - - - - - -
 
-transportPageButton(`mu-button`, `message-us`);
+transportPageButton(`calculate-button`, `calculating-type`);
 
 // - - - - - - - - - - - - Social Media Links - - - - - - - - - - -
 document.getElementById('facebookImg').addEventListener('click', function(){
