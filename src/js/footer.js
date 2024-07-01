@@ -94,11 +94,11 @@ document.getElementById('footerContainer').innerHTML =`
           <div class="footer-section-two">
             <div class="copyright-div">
               <p class="copyright-paragraph">
-                &#169;2024 Natigati Website. All Rights Reserved.
+                &#169;224 Natigati Website. All Rights Reserved.
               </p>
             </div>
             <div class="top-button">         
-                <img src="assets/images/icons/arrow_upward_icon.svg" class="arrow-button" id="top-of-page" onclick="
+                <img src="../../assets/images/icons/arrow_upward_icon.svg" class="arrow-button" id="top-of-page" onclick="
                   window.location.href = '#top-of-page'
                   ">          
             </div>
