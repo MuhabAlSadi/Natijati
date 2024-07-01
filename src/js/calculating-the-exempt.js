@@ -42,7 +42,7 @@ function renderSubjectsList() {
               updateInputsValue(); 
               refreshTheme();
               ">
-              <img src="/assets/images/icons/delete-icon.svg" class="delete-icon">
+              <img src="../../assets/images/icons/delete-icon.svg" class="delete-icon">
               </button>
             </div>
             <div class="subject-container">
@@ -554,7 +554,7 @@ function calculate(){
               ${showTable}
               <div class="page-footer">
                 <p class="footer-paragraph">موقع نتيجتي لحساب الاعفاء</p>
-                <img src="/src/img/achievement-award-medal-icon.svg" class="logo-img">
+                <img src="../img/achievement-award-medal-icon.svg" class="logo-img">
               </div>
               </div>
             </div>
@@ -595,7 +595,7 @@ const resetButton = document.getElementById('resetButton');
 let resetTexts = `
       <p class="result-text " id="resultText">النتيجة!</p>
       <div class="adding-grades-img-div">
-        <img src="/assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+        <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
       </div>
       <div>
         <p class="no-grades-text" id="noGradesText1">لم يتم ادخال اي درجات </p>
