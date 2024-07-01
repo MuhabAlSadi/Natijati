@@ -1,6 +1,6 @@
 
 // - - - - - - - - - - - Main Functions to use - - - - - - - - - -
-
+console.log('start one');
 // For buttons to transport from html page to another html page
 function transportPageButton(buttonClass, pageName){
 if(document.querySelector(`.${buttonClass}`)){
@@ -47,3 +47,4 @@ document.getElementById('facebookImg').addEventListener('click', function(){
 document.getElementById('telegramImg').addEventListener('click', function(){
   window.open('https://t.me/natigatiTChannel2468', '_blank' );
 })
+console.log('end two');
