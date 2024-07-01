@@ -1,6 +1,6 @@
 
 // - - - - - - - - - - - Main Functions to use - - - - - - - - - -
-
+/*
 // For buttons to transport from html page to another html page
 function transportPageButton(buttonClass, pageName){
 if(document.querySelector(`.${buttonClass}`)){
@@ -9,7 +9,7 @@ if(document.querySelector(`.${buttonClass}`)){
   })
 }
 };
-
+*/
 // - - - - - - -- - -- - -- Header Section - -- - - - - - - - - - 
 
 function showSiderbar(){
@@ -31,18 +31,27 @@ document.querySelector('.calculate-button-header').addEventListener('click', fun
 
 //transportPageButton('calculate-button', 'calculating-type');
 document.getElementById('button').addEventListener('click', function(){
-    window.location.href = '../pages/calculating-type.html';
+    window.location.href = './pages/calculating-type.html';
   })
 
 // - - - - - - - - - Calculating Type Section - - - - - - - - - - - 
 
-transportPageButton('final-result', 'calculating-the-exempt');
-transportPageButton(`unknown-marks`, `calculate-required-grades`);
+//transportPageButton('final-result', 'calculating-the-exempt');
+//transportPageButton(`unknown-marks`, `calculate-required-grades`);
+
+document.querySelector(`.final-result`).addEventListener('click', function(){
+    window.location.href = `../pages/calculating-the-exempt.html`;
+  })
+document.querySelector(`.unknown-marks`).addEventListener('click', function(){
+    window.location.href = `../pages/calculate-required-grades.html`;
+  })
 
 // - - - - - - - - - - - Message Us Section -- - - - - - - - - -
 
-transportPageButton(`calculate-button`, `calculating-type`);
-
+//transportPageButton(`calculate-button`, `calculating-type`);
+document.querySelector(`.calculate-button`).addEventListener('click', function(){
+    window.location.href = `../pages/calculating-type.html`;
+  })
 // - - - - - - - - - - - - Social Media Links - - - - - - - - - - -
 document.getElementById('facebookImg').addEventListener('click', function(){
   window.open('https://www.facebook.com/people/Natigati-Website/61560080236721/', '_blank' );
