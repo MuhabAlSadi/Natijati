@@ -365,6 +365,7 @@
 }
 .grades-information-container {
   display:flex;
+  direction:rtl;
 }
 
 .grades-information-title {
