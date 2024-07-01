@@ -42,7 +42,7 @@ function renderSubjectsList() {
               updateInputsValue(); 
               refreshTheme();
               ">
-              <img src="/assets/images/icons/delete-icon.svg" class="delete-icon">
+              <img src="../../assets/images/icons/delete-icon.svg" class="delete-icon">
               </button>
             </div>
             <div class="subject-container">
@@ -387,18 +387,7 @@ function calculate(){
           averageDivMark.style.textDecoration = 'underline';
       }
     });
-/*
-    const reqGrade = document.querySelectorAll('.js-grades-after-half-year');
-     reqGrade.forEach(gradeDiv => {
-       const requiredGrade = parseFloat(gradeDiv.textContent) ;
-        if(requiredGrade > 100) {
-          gradeDiv.style.color = 'red';
-          gradeDiv.style.textDecoration = 'underline';
-        } else if(requiredGrade <= 100) {
-          gradeDiv.style.color = 'gold';
-          gradeDiv.style.textDecoration = 'none';
-        }
-      });*/
+
       
     const finalAverage = parseFloat(document.getElementById('averageD').textContent) ;
     const finalSum = parseFloat(document.getElementById('sumD').textContent);
@@ -484,7 +473,7 @@ const resetButton = document.getElementById('resetButton');
 let resetTextsForStat = `
   <p class="result-text" id="statistics">الاحصائيات!</p>
   <div class="adding-grades-img-div">
-    <img src="/assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+    <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
   </div>
   <div>
     <p class="no-grades-text" id="statisticsText1">لم يتم ادخال اي درجات </p>
