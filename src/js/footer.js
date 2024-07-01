@@ -3,9 +3,9 @@ document.getElementById('footerContainer').innerHTML =`
           <div class="footer-right">
             <div class="footer-right-top-div">
               <div><p class="social-media-title" id="toMessageUs">للتواصل معنا</p></div>
-              <div class="sm-img-div"> <img src="assets/images/icons/email-icon.png" id="emailImg" class="email-img" width="100%" ></div>
-              <div class="sm-img-div"> <img src="assets/images/icons/facebook-icon.png" id="facebookImg" class="facebook-img" target="_blank" width="100%" ></div>
-              <div class="sm-img-div"><img src="assets/images/icons/telegram-icon.png" id="telegramImg" class="telegram-img" width="100%"></div>
+              <div class="sm-img-div"> <img src="../../assets/images/icons/email-icon.png" id="emailImg" class="email-img" width="100%" ></div>
+              <div class="sm-img-div"> <img src="../../assets/images/icons/facebook-icon.png" id="facebookImg" class="facebook-img" target="_blank" width="100%" ></div>
+              <div class="sm-img-div"><img src="../../assets/images/icons/telegram-icon.png" id="telegramImg" class="telegram-img" width="100%"></div>
               
             </div>
             <div class="links">
@@ -16,13 +16,13 @@ document.getElementById('footerContainer').innerHTML =`
                 <a id="privacyPolicy" class="light-color">سياسة الخصوصية</a>
               </div>
               <div>
-                <a href="#common-questions-section" class="light-color" id="commonQuesLink">الاسئلة الشائعة</a>
+                <a href="../../index.html#common-questions-section" class="light-color" id="commonQuesLink">الاسئلة الشائعة</a>
               </div>
               <div>
-                <a href="/src/pages/message-us.html" class="light-color" id="toMessageUsLink">لمراسلتنا</a>
+                <a href="../pages/message-us.html" class="light-color" id="toMessageUsLink">لمراسلتنا</a>
               </div>
               <div>
-                <a href="/src/pages/calculating-type.html" class="light-color" id="calcExempt">حساب الاعفاء</a>
+                <a href="../pages/calculating-type.html" class="light-color" id="calcExempt">حساب الاعفاء</a>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ document.getElementById('footerContainer').innerHTML =`
           <div>
             <div class="language" id="language-selector">
               <div class="choose-lang-container">
-              <div id="langIcon"><img src="/assets/images/icons/language-icon-blue.svg" class="lang-icon"></div>
+              <div id="langIcon"><img src="../../assets/images/icons/language-icon-blue.svg" class="lang-icon"></div>
                 <p class="choose-lang" id="chooseLang">اخـتـيـار اللــــغة:</p>
                 
               </div>
@@ -58,7 +58,7 @@ document.getElementById('footerContainer').innerHTML =`
             </div>
             <div class="theme">
               <div class="choose-theme-container">
-              <div id="themeIcon"><img src="/assets/images/icons/palette-icon-blue.svg" class="theme-icon"></div>
+              <div id="themeIcon"><img src="../../assets/images/icons/palette-icon-blue.svg" class="theme-icon"></div>
                 <p class="choose-theme" id="changeTheme">تـغـيـيـر الـسـمـة:</p>
                 
               </div>
@@ -94,7 +94,7 @@ document.getElementById('footerContainer').innerHTML =`
           <div class="footer-section-two">
             <div class="copyright-div">
               <p class="copyright-paragraph">
-                &#169;224 Natigati Website. All Rights Reserved.
+                &#169;2024 Natigati Website. All Rights Reserved.
               </p>
             </div>
             <div class="top-button">         
@@ -254,7 +254,7 @@ const languageContent = {
     </section>`,
     resultTexts: `<p class="result-text " id="resultText">النتيجة!</p>
       <div class="adding-grades-img-div">
-        <img src="/assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+        <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
       </div>
       <div>
         <p class="no-grades-text" id="noGradesText1">لم يتم ادخال اي درجات </p>
@@ -263,7 +263,7 @@ const languageContent = {
       statisticsText: `
       <p class="result-text" id="statistics">الاحصائيات!</p>
 <div class="adding-grades-img-div">
-  <img src="/assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+  <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
 </div>
 <div>
   <p class="no-grades-text" id="statisticsText1">لم يتم ادخال اي درجات </p>
@@ -414,7 +414,7 @@ const languageContent = {
             `,
             resultTexts: `<p class="result-text" id="resultText">ئەنجام!</p>
             <div class="adding-grades-img-div">
-              <img src="/assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+              <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
             </div>
             <div>
               <p class="no-grades-text" id="noGradesText1">هیچ نرخێك دانراو نییە</p>
@@ -423,7 +423,7 @@ const languageContent = {
             `,
             statisticsText: `<p class="result-text" id="statistics">ئامار!</p>
 <div class="adding-grades-img-div">
-  <img src="/assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+  <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
 </div>
 <div>
   <p class="no-grades-text" id="statisticsText1">هیچ نمرێك نه‌دراوه‌ </p>
@@ -583,7 +583,7 @@ const languageContent = {
     </section>`,
     resultTexts: `<p class="result-text" id="resultText">Result!</p>
     <div class="adding-grades-img-div">
-      <img src="/assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+      <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
     </div>
     <div>
       <p class="no-grades-text" id="noGradesText1">No grades entered</p>
@@ -591,7 +591,7 @@ const languageContent = {
     </div>`,
     statisticsText: `<p class="result-text" id="statistics">Statistics!</p>
 <div class="adding-grades-img-div">
-  <img src="/assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+  <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
 </div>
 <div>
   <p class="no-grades-text" id="statisticsText1">No grades entered</p>
@@ -1100,14 +1100,14 @@ function detailsMarker(light) {
 function languageIcon(color) {
   const iconDiv = document.getElementById('langIcon');
   if (iconDiv) {
-    iconDiv.innerHTML = `<img src="/assets/images/icons/language-icon-${color}.svg" class="lang-icon">`;
+    iconDiv.innerHTML = `<img src="../../assets/images/icons/language-icon-${color}.svg" class="lang-icon">`;
   } 
 }
 
 function themeIcon(color) {
   const iconDiv = document.getElementById('themeIcon');
   if (iconDiv) {
-    iconDiv.innerHTML = `<img src="/assets/images/icons/palette-icon-${color}.svg" class="theme-icon">`;
+    iconDiv.innerHTML = `<img src="../../assets/images/icons/palette-icon-${color}.svg" class="theme-icon">`;
   } 
 }
 
@@ -1119,7 +1119,7 @@ document.getElementById('privacyPolicy').addEventListener('click', function(){
   
   privacyPolicyDiv.innerHTML = `
      <div class="privacy-policy-div" >
-        <img src="/assets/images/icons/close_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" class="close-pp">
+        <img src="../../assets/images/icons/close_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" class="close-pp">
      
         <h1>سياسة الخصوصية</h1>
         <p>آخر تحديث: 15 يونيو 2024</p>
@@ -1299,7 +1299,7 @@ document.getElementById('termsOfService').addEventListener('click', function(){
   
   termsOfServiceDiv.innerHTML = `
      <div class="privacy-policy-div" >
-        <img src="/assets/images/icons/close_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" class="close-pp">  
+        <img src="../../assets/images/icons/close_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" class="close-pp">  
         <h1>الشروط والأحكام</h1>
           <p>آخر تحديث: 29 يونيو 2024</p>
           <p>يُرجى قراءة هذه الشروط والأحكام بعناية قبل استخدام خدمتنا.</p>
