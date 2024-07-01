@@ -106,7 +106,7 @@ document.getElementById('footerContainer').innerHTML =`
           <div id="privacyPolicyDiv"></div>
           <div id="termsOfServiceDiv"></div>
 `;
-console.log('yes');
+
 
 
 // - - - - - - - - - - - - Language Settings - - - - - - - - - - - 
