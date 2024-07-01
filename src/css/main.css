@@ -22,7 +22,7 @@ body {
 }
 @font-face {
   font-family: 'SarchiaMakka'; /* Name of the font */
-  src: url('/assets/fonts/SarchiaMakka.ttf') format('truetype'); /* Path to your font file */
+  src: url('../../assets/fonts/SarchiaMakka.ttf') format('truetype'); /* Path to your font file */
 }
 
 /* - - - - - - - - - - Header Section - - - - - - - - - - -*/
