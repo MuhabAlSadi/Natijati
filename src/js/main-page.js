@@ -29,7 +29,10 @@ document.querySelector('.calculate-button-header').addEventListener('click', fun
 
 // - - - - - - - - - - Calculating Button Section - - - - - - - - - - 
 
-transportPageButton('calculate-button', 'calculating-type');
+//transportPageButton('calculate-button', 'calculating-type');
+document.getElementById('button').addEventListener('click', function(){
+    window.location.href = '../pages/calculating-type.html';
+  })
 
 // - - - - - - - - - Calculating Type Section - - - - - - - - - - - 
 
