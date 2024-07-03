@@ -449,15 +449,15 @@ const languageContent = {
     quesOne: 'What is an exemption?',
     ansOne: 'Exemption is to be exempted from attending final exams, whether for several subjects (individual exemption) or for all subjects (general exemption), and when you obtain an exemption for all lessons, you will have passed to the next academic stage, and the exemption includes unfinished academic stages only',
     quesTwo: "How do I know I'm exempt?",
-    ansTwo: 'For the individual exemption, the course must be at least 90 degrees, with the total score for the first semester, the half-year, and the second semester being no less than 270 degrees.As for the general exemption, the pursuit average must not be less than 85 degrees, provided that the pursuit of any subject is not less than 75 degrees. You can try our website to calculate the exemption. All you have to do is fill in the fields with grades and then it will be determined whether you are exempt or not',
+    ansTwo: 'For the individual exemption, the course must be at least 90 degrees, with the total score for the first semester, the half-year, and the second semester being no less than 270 degrees.As for the general exemption, the subject average must not be less than 85 degrees, provided that the average of any subject is not less than 75 degrees. You can try our website to calculate the exemption. All you have to do is fill in the fields with grades and then it will be determined whether you are exempt or not',
     quesThree: 'What is the difference between general exemption and individual exemption?',
     ansThree: 'The general exemption is to be exempted from all subjects, while the individual exemption is to be exempted from one or several subjects',
     quesFour: 'What is the benefit of the exemption?',
     ansFour: 'With the general exemption, you can pass to the next academic stage early without the need to take the final exams, and this will increase the duration of the summer vacation by at least a month. As for the individual exemptions, you can benefit from them to focus on the rest of the exams, as it will provide you with additional time to review them',
     quesFive: 'How do I collect the exemption?',
-    ansFive: 'Your exemption depends on the grade of the first semester, the half-year, and the second semester. For the individual exemption, the course pursuit must not be less than 90 degrees. As for the general exemption, the annual pursuit average must not be less than 85 degrees, provided that any subject is not less than 75 degrees',
+    ansFive: 'Your exemption depends on the grade of the first semester, the half-year, and the second semester. For the individual exemption, the subject average must not be less than 90 degrees. As for the general exemption, the annual subject average must not be less than 85 degrees, provided that no subject is less than 75 degrees',
     quesSix: 'How do I calculate the exemption?',
-    ansSix: "With regard to the individual exemption, you must combine the grades of the first semester, the half-year, and the second semester, and their sum must not be less than 270 grades, divided by 3, so that the subject's pursuit is not less than 90 grades, and thus you will be exempted from the subject. As for the general exemption, you must calculate the annual pursuit rate by summing the pursuits of all subjects and then dividing the result by the number of subjects. Then the pursuit rate must not be less than 85 degrees, provided that the pursuit of any subject is not less than 75 degrees, and thus you will be exempted from all subjects General exemption",
+    ansSix: "With regard to the individual exemption, you must combine the grades of the first semester, the half-year, and the second semester, and their sum must not be less than 270 grades, divided by 3, so that the subject's average is not less than 90 grades, and thus you will be exempted from the subject. As for the general exemption, you must calculate the average of all subjects averages and then dividing the result by the number of subjects. Then the averagw must not be less than 85 degrees, provided that the average of any subject is not less than 75 degrees, and thus you will be exempted from all subjects General exemption",
     quesSeven: 'What are the stages covered by the exemption?',
     ansSeven: 'The stages included are the unfinished stages, which are the first intermediate, the second intermediate, the fourth intermediate, and the fifth intermediate, meaning that the ministerial stages are not included, which are the third intermediate and the sixth intermediate',
     noteFirstSec: 'If you want to ask more questions or want to report an error or some comments, please write to us by',
@@ -583,7 +583,7 @@ const languageContent = {
     </section>`,
     resultTexts: `<p class="result-text" id="resultText">Result!</p>
     <div class="adding-grades-img-div">
-      <img src="assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+      <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
     </div>
     <div>
       <p class="no-grades-text" id="noGradesText1">No grades entered</p>
@@ -591,7 +591,7 @@ const languageContent = {
     </div>`,
     statisticsText: `<p class="result-text" id="statistics">Statistics!</p>
 <div class="adding-grades-img-div">
-  <img src="assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
+  <img src="../../assets/images/adding-grades-in-computer.jpg" class="adding-grades-to-computer-icon">
 </div>
 <div>
   <p class="no-grades-text" id="statisticsText1">No grades entered</p>
