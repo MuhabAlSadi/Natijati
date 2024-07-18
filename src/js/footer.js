@@ -846,7 +846,7 @@ function saveLanguage(language) {
 
 // Function to load the selected language from localStorage
 function loadLanguage() {
-  return localStorage.getItem('selectedLanguage') || 'english'; // Default to 'english' if not set
+  return localStorage.getItem('selectedLanguage') || 'arabic'; // Default to 'arabic' if not set
 }
 
 // Function to initialize the language settings
