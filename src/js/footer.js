@@ -1380,7 +1380,7 @@ document.getElementById('termsOfService').addEventListener('click', function(){
           <h2>اتصل بنا</h2>
           <p>إذا كانت لديك أي أسئلة حول هذه الشروط والأحكام، يمكنك الاتصال بنا:</p>
           <ul>
-          <li>عبر البريد الإلكتروني: natigaticustomerservice@gmail.com</li>
+          <li>عبر البريد الإلكتروني: 2024natijati@gmail.com</li>
           </ul>
      </div>
   `;
@@ -1392,7 +1392,7 @@ document.getElementById('termsOfService').addEventListener('click', function(){
 
 
 document.getElementById('emailImg').addEventListener('click', function(){
-  const textToCopy = 'natigaticustomerservice@gmail.com';
+  const textToCopy = '2024natijati@gmail.com';
 
     // Create a textarea element (off-screen) to hold the text
     const textarea = document.createElement('textarea');
@@ -1412,6 +1412,6 @@ document.getElementById('emailImg').addEventListener('click', function(){
     document.body.removeChild(textarea);
   alert(`
     تم نسخ عنوان البريد الالكتروني
-    natigaticustomerservice@gmail.com
+    2024natijati@gmail.com
     `);
 })
