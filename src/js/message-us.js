@@ -25,7 +25,7 @@ window.addEventListener('load', (event) => {
       }
 
       if (isValid) {
-          const mailtoLink = `mailto:natigaticustomerservice@gmail.com?subject=${encodeURIComponent(subject.value)}&body=${encodeURIComponent("اسم المرسل: " + name.value + "\n\nالرسالة:\n" + message.value)}`;
+          const mailtoLink = `mailto:2024natijati@gmail.com?subject=${encodeURIComponent(subject.value)}&body=${encodeURIComponent("اسم المرسل: " + name.value + "\n\nالرسالة:\n" + message.value)}`;
           window.location.href = mailtoLink;
       }
   }
